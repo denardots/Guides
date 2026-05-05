@@ -95,7 +95,7 @@ Para desplegar nuestro proyecto en GitHub Pages debemos tener un proyecto creado
 
 ```json
 "devDependencies": {
-    // Eliminamos estas lineas de codigo
+    // Eliminamos las líneas de los linters
     "@eslint/js": "^9.20.0",
     "@html-eslint/eslint-plugin": "^0.35.0",
     "@html-eslint/parser": "^0.35.0",

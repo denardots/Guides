@@ -2,4 +2,4 @@
 
 ## Descripción del Repositorio
 
-Este repositorio contendrá guías, códigos, comandos de distintos lenguajes y herramientas que utilizó.
+Este repositorio contendrá guías, códigos, comandos de distintos lenguajes y herramientas para proyectos de desarrollo.

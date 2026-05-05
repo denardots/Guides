@@ -62,7 +62,7 @@ Para instalar html-eslint es necesario tener un proyecto creado con Vite y haber
       // Regla para evitar espacios al final de una linea
       "@html-eslint/no-trailing-spaces": "error",
       // Regla para ordenar los atributos alfabeticamente, pero dando prioridad a algunos atributos
-      "@html-eslint/sort-attrs": ["error", {"priority": ["id", "class", "rel", "type", "name", "src", "href"]}]
+      "@html-eslint/sort-attrs": ["error", {"priority": ["id", "class", "rel", "type", "name", "src", "href", "property", "content"]}]
     }
   }
 ```
