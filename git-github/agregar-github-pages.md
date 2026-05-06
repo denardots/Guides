@@ -2,19 +2,19 @@
 
 Para desplegar nuestro proyecto en GitHub Pages debemos tener un proyecto creado con Vite y no tener instalado Stylelint y ESLint en el proyecto.
 
+Se recomienda configurar Github Pages luego de crear el proyecto con Vite, antes de configurar los linters y el desarrollo del proyecto.
+
 ## Despliegue en GitHub Pages
 
-1. Creamos un repositorio público vacio en GitHub
+1. Creamos nuestro proyecyo con Vite y creamos nuestro repositorio local en Git
 
-2. Conectamos nuestro proyecto con el repositorio creado
+2. Creamos el commit inicial y subimos nuestro repositorio a Github mediante Visual Studio Code
 
-3. Creamos el commit inicial y lo enviamos a GitHub
+3. Ingresamos a Setting->Pages dentro de la configuración del repositorio de GitHub
 
-4. Ingresamos a Setting->Pages dentro de la configuración del repositorio de GitHub
+4. Elegimos GitHub Actions y click en Configure de GitHub Pages Jekyll
 
-5. Elegimos GitHub Actions y click en Configure de GitHub Pages Jekyll
-
-6. Eliminamos el contenido del archivo y pegamos el siguiente código de la pagina oficial de Vite:
+5. Eliminamos el contenido del archivo y pegamos el siguiente código de la pagina oficial de Vite:
 
 ```yml
   # Simple workflow for deploying static content to GitHub Pages
@@ -70,9 +70,9 @@ Para desplegar nuestro proyecto en GitHub Pages debemos tener un proyecto creado
           uses: actions/deploy-pages@v4
 ```
 
-7. Hacemos un commit y luego un pull en nuestro repositorio local
+6. Hacemos un commit y luego un pull en nuestro repositorio local
 
-8. Creamos el archivo ***vite.config.js*** agregamos el siguiente código:
+7. Creamos el archivo ***vite.config.js*** agregamos el siguiente código:
 
 ```js
   import {defineConfig} from "vite";
@@ -83,15 +83,15 @@ Para desplegar nuestro proyecto en GitHub Pages debemos tener un proyecto creado
   });
 ```
 
-9. Luego hacemos un commit y un push a nuestro repositorio remoto
+8. Luego hacemos un commit y un push a nuestro repositorio remoto
 
-10. Listo, cuando escribamos el siguiente comando en la terminal se subirá nuestro proyecto a Github Pages
+9. Listo, cuando escribamos el siguiente comando en la terminal se subirá nuestro proyecto a Github Pages
 
 ```bash
   npm run build
 ```
 
-11. Cada vez que subamos el proyecto a producción debemos quitar estas lineas del package.json, solo las volveremos a agregar cuando estemos en desarrollo
+10. Cada vez que subamos el proyecto a producción debemos quitar estas lineas del package.json, solo las volveremos a agregar cuando estemos en desarrollo
 
 ```json
 "devDependencies": {
