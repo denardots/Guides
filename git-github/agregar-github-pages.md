@@ -2,11 +2,11 @@
 
 Para desplegar nuestro proyecto en GitHub Pages debemos tener un proyecto creado con Vite y no tener instalado Stylelint y ESLint en el proyecto.
 
-Se recomienda configurar Github Pages luego de crear el proyecto con Vite, antes de configurar los linters y el desarrollo del proyecto.
+Se recomienda configurar Github Pages luego de crear el proyecto con Vite y configurar los linters, pero antes del desarrollo del proyecto
 
 ## Despliegue en GitHub Pages
 
-1. Creamos nuestro proyecyo con Vite y creamos nuestro repositorio local en Git
+1. Creamos nuestro proyecto con Vite y creamos nuestro repositorio local en Git
 
 2. Creamos el commit inicial y subimos nuestro repositorio a Github mediante Visual Studio Code
 
@@ -83,9 +83,9 @@ Se recomienda configurar Github Pages luego de crear el proyecto con Vite, antes
   });
 ```
 
-8. Luego hacemos un commit y un push a nuestro repositorio remoto
+8. Luego desarrollamos nuestro proyecto y hacemos un commit y push a nuestro repositorio remoto
 
-9. Listo, cuando escribamos el siguiente comando en la terminal se subirá nuestro proyecto a Github Pages
+9. Fianlmente, cuando escribamos el siguiente comando en la terminal se subirá nuestro proyecto a Github Pages
 
 ```bash
   npm run build
