@@ -2,10 +2,6 @@
 
 En el desarollo de los proyectos se pueden utilizar los siguientes herramientas:
 
-## Metatadatos
-
-* [Metatags.io](https://metatags.io/ "Metadatos")
-
 ## Íconos
 
 * [Boxicons](https://boxicons.com/ "Íconos")
